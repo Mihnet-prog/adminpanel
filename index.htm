@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<head>
+<title>AdminPanel</title>
+<link rel="stylesheet" type="text/css" href="styel.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=5">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<html>
+    
+    <body>
+        <header>
+            <div class="flex-container">
+                <div><img src="virus.png" alt=""></div>
+                <div>  
+                  
+                  <input type="search"   id="trazi" onsearch="myfunction99()">
+                  <p id="trazi2"><mihnet/p>
+                  <input id="btnse" onclick="myfunction99()" type="submit">
+                <div></div>
+                
+                <div class="login">
+                    <a href="register.php">Exit</a>
+                </div>
+              </div>
+    </header>
+    <div class="container">
+        <h2></h2>
+        <div class="panel-group">
+          <div class="panel panel-default">
+        <div   id="panel1" onclick="window.opne("index.htm")"  class="panel-heading"><h3>Login user</h3></div>
+            <div class="panel-body"></div>
+            <div class="panel-footer"><h5></h5></div>
+          </div>
+      
+          <div class="panel panel-primary">
+            <div id="panel2" onclick="windwo.opne(index.htm)" class="panel-heading"><h3>Name user</h3></div>
+            <div class="panel-body">
+                <SELECT>
+                    <form action="register.php" method="post">
+                    <OPTION id="id1" onclick="myfunction()" Value="ID">Mihnet</OPTION>
+                    <OPTION id="id2" onclick="myfunction()" Value="ID">Donald</OPTION>
+                    <OPTION id="id3" onclick="myfunction()" Value="ID">Jhon</OPTION>
+                    <OPTION id="id4" onclick="myfunction()" Value="ID">albert</OPTION>
+                    <OPTION id="id5" onclick="myfunction()" Value="ID">keen</OPTION>
+                           <input  id="btn" onse="myfunction()" type="submit" value="search"/> 
+                </from>
+              </SELECT>
+                    <select id="select" onchange="myfunction50()">
+                    <option value="dol_7">Donald</option>
+                    <option value="jhon_v">jhon </option>
+                    <option value="albert_1">Albert</option>
+                    <option value="keen500"> Keen</option>
+                    <option value="Mihnet.ux">Mihnet</option>
+                    
+                    
+
+                    
+                    
+                    </select>
+              <br/>
+            </div>
+            <div class="panel-footer"><h5>  <br><p id="demo"></p>   </h5></div>
+          </div>
+       <form method="post" action="">
+         
+       </form>
+          <div class="panel panel-success">
+            <div  id="panel3" onclick="windwo.alret()" class="panel-heading"><h3>ID user</h3></div>
+            <div class="progress">
+              <div class="progress-bar bg-primary" style="width: 50%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="18">50%</div>
+            </div>
+            <div class="panel-body">
+                <SELECT>
+
+                    <OPTION id="num1" onclick="username()" Value="ID">1</OPTION>
+                    <OPTION  id="num2" onclick="username()" Value="ID">2</OPTION>
+                    <OPTION id="num3" onclick="username()" Value="ID">3</OPTION>
+                    <OPTION id="num4" onclick="username()" Value="ID">4</OPTION>
+                    <OPTION id="num5" onclick="username()" Value="ID">5</OPTION>
+                    <input  id="btn2" onclick="username()"   type="submit" value="search"/> 
+                    
+                    </SELECT>
+            </div>
+            <div class="panel-footer"><h5></h5></div>1
+          </div>
+      
+          <div class="panel panel-info">
+          <div  id="panel4" onclick="window.open()"  class="panel-heading"><h3>cookies user</h3></div>
+            <div class="panel-body">
+              <SELECT>
+
+                <OPTION id="co1" onclick="coo()" Value="ID">User ( 5413154968)</OPTION>
+                <OPTION  id="co2" onclick="coo()" Value="ID">User (465487897897)</OPTION>
+                <OPTION id="co3" onclick="coo()" Value="ID">User (8878974546)</OPTION>
+                <OPTION id="co4" onclick="coo()" Value="ID">User (79874654646)</OPTION>
+                <OPTION id="co5" onclick="coo()" Value="ID">User (878979897544)</OPTION>
+                <input  id="btn3" onclick="coo()"   type="submit" value="search"/> 
+                
+                </SELECT>
+            </div>
+            <div class="panel-footer"><h5></h5></div>
+          </div>
+      
+          </div>
+        </div>
+      </div>
+      
+
+    </form>
+
+
+
+<script>
+function onclick(){
+    document.getElementById("panel1").window.open = ('google.com');
+} 
+
+function myfunction(){
+    document.getElementById("id1").text = "             User Mihnet login 2 hours";
+    document.getElementById("id2").text = "        e        User Donald 3 hours";
+    document.getElementById("id3").text = "              User jhon 2 hours";
+    document.getElementById("id4").text = "               User Albert 2 hours";
+    document.getElementById("id5").text = "              User Keen 2 hours";
+}
+function username(){
+    document.getElementById("num1").text = "id (1)       Mihnet ";
+    document.getElementById("num2").text = "id (2)     Donald";
+    document.getElementById("num3").text = "id (3)      albert";
+    document.getElementById("num4").text = "id (4)    jhon";
+    document.getElementById("num5").text = "id (5)      keen";
+}
+
+function coo(){
+  document.getElementById("co1").text = " User (Id 1,Mihnet)                     `   ";
+  document.getElementById("co2").text = " User (Id 2,Donald)                        "; 
+  document.getElementById("co3").text = " User (Id 3,jhon)                         ";
+  document.getElementById("co4").text = " User (Id 4,Albert)                         ";
+  document.getElementById("co5").text = " User (Id 5,Keen  )                          ";
+
+ 
+}
+
+
+function myfunction50(){
+  var x = document.getElementById("select").value;
+  document.getElementById("demo").innerHTML = "Nick name: "+ x;
+}
+ function myfunction99(){
+   var x = document.getElementById("trazi");
+   document.getElementById("trazi2").innerHTML = "postoj";HTMLAllCollection
+ }
+
+
+</script>
+
+
+ 
+   
+     
+
+    
+   
+     
+           </div>
+         </li>
+       </nav>
+     </div>
+   </div>
+
+
+
+
+
+   <div class="panel panel-primary">
+    <div id="panel2" onclick="windwo.opne(index.htm)" class="panel-heading"><h3>Server</h3></div>
+    <div class="panel-body">
+      b-table-da
+    </div>
+
+
+
+    </body>
+</html>
